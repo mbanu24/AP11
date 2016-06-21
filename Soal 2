@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string.h>
+
+using namespace std;
+
+int main()
+{
+    int angka;
+
+    cout<<"masukkan jumlah Indeks : "; cin>>angka;
+
+    int A[angka];
+    for (int i=0; i<angka ; i++){
+        cout<<"Masukkan Data ke "<<i<<" = "; cin>>A[i];
+    }
+
+}
